@@ -1,0 +1,18 @@
+.navigation__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navigation__item {
+    list-style: none;
+}
+
+.navigation__link {
+    color: teal;
+    text-decoration: none;
+}
+
+.navigation__link:hover {
+    opacity: 0.7;
+}

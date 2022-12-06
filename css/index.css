@@ -1,0 +1,29 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.container {
+    max-width: 1000px;
+    margin:  0 auto;
+    text-align: center;
+    color: teal;
+}
+
+.main {
+    padding: 0px 20px;
+    background-color: aliceblue;
+    line-height: 1.5;
+    padding-bottom: 5px;
+}
+
+.button {
+    border: none;
+    padding: 5px 10px;
+    color: teal;
+    background-color: #d1f1f1;
+}

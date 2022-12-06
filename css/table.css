@@ -1,0 +1,28 @@
+.tableContainer {
+    overflow-x: auto;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.hideTable {
+    display: none;
+}
+
+.table__cell {
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+}
+
+.table__cell--header {
+    background-color: teal;
+    color: aliceblue;
+}
+
+.table__caption {
+    caption-side: bottom;
+    text-align: right;
+    margin-top: 10px;
+}
